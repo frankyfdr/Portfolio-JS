@@ -1,0 +1,40 @@
+h1
+{
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    }
+
+#infoText
+{
+    display: inline-flex;
+    position: absolute;
+    color:black;
+    z-index: -1;
+    padding-left: 100px;
+
+}
+p
+{
+    margin: 100px;
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 14px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+text-shadow: 9px 6px 19px #030303;
+
+}
+#particles-js
+{  
+    height: 200px;
+    width:100%;
+}
