@@ -1,11 +1,14 @@
 h1
 {
+
+    margin-top: 0px;
     width: auto;
-    height: 40px;
-    border-radius: 5px;
+    height: 30px;
+    border-radius: 1px 1px 100px 100px;
     padding: 5px;
     background-color: black;
     color: white;
+    text-align: center;
     }
 
 #infoText
@@ -13,28 +16,69 @@ h1
     display: inline-flex;
     position: absolute;
     color:black;
-    z-index: -1;
+    z-index: 1;
     padding-left: 100px;
+    
 
 }
 p
 {
+    transition: 0.3s;
     margin: 100px;
     font-family: "Arial Black", Gadget, sans-serif;
-font-size: 14px;
-letter-spacing: 2px;
-word-spacing: 2px;
-color: #000000;
-font-weight: 400;
-text-decoration: none solid rgb(68, 68, 68);
-font-style: normal;
-font-variant: small-caps;
-text-transform: none;
-text-shadow: 9px 6px 19px #030303;
-
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 9px 6px 19px #030303;
+}
+a
+{
+    color: #000000;
+    text-decoration: none;
+}
+p:hover
+{
+    
+    text-shadow: 0 -1px 4px #FFF, 8px -1px 20px #960F0F, 8px -1px 20px #960F0F, -12px 1px 20px #960F0F;
 }
 #particles-js
 {  
     height: 200px;
     width:100%;
+}
+.sector,#blank
+{
+    height: 100%;
+    width: auto;
+}
+#blank
+{
+    height: 60%;
+    width: auto;
+}
+#soft
+{
+    background-color:darkred;
+}
+#web
+{
+    background-color:white
+}
+#aws
+{
+    background-color:darkred;
+}
+#top
+{
+    right: -80px;
+    bottom: -80px;
+    color: red;
+    position: fixed;
+    text-align: right;
 }
